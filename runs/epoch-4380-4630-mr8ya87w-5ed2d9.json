@@ -1,0 +1,458 @@
+{
+  "runId": "mr8ya87w-5ed2d9",
+  "startedAt": "2026-07-06T08:20:46.748Z",
+  "finishedAt": "2026-07-06T08:20:46.750Z",
+  "status": "calldata-emitted",
+  "providerId": "51",
+  "distributionWallet": "0xb2f3aed8eF84ad40484fC71ebb1301B8c8B4785f",
+  "token": "0xA27EC0006e59f245217Ff08CD52A7E8b169E62D2",
+  "transactions": [
+    {
+      "label": "ERC20.transfer #1/1 → 0x45AfC3330001D915736CCda5D8559C4A97512D5C (332500000000000000000)",
+      "to": "0xA27EC0006e59f245217Ff08CD52A7E8b169E62D2",
+      "value": "0",
+      "data": "0xa9059cbb00000000000000000000000045afc3330001d915736ccda5d8559c4a97512d5c000000000000000000000000000000000000000000000012065d4c56e9620000",
+      "function": "transfer",
+      "args": {
+        "token": "0xA27EC0006e59f245217Ff08CD52A7E8b169E62D2",
+        "delegator": "0x45AfC3330001D915736CCda5D8559C4A97512D5C",
+        "amount": "332500000000000000000",
+        "preRateShare": "350000000000000000000"
+      }
+    }
+  ],
+  "totals": {
+    "totalForwarded": "332500000000000000000",
+    "operatorRetention": "17500000000000000000"
+  },
+  "fromEpoch": "4380",
+  "toEpoch": "4630",
+  "fromCheckpoint": "98971",
+  "toCheckpoint": "106740",
+  "fromBlock": "25424135",
+  "toBlock": "25472105",
+  "finalizedBlock": "25472172",
+  "rewardConfig": {
+    "checkpointReward": "500000000000000000000",
+    "sequencerBps": 7000,
+    "sequencerRewardPerCheckpoint": "350000000000000000000"
+  },
+  "checkpointsProposed": 1,
+  "rewardEarned": "350000000000000000000",
+  "gasCost": {
+    "txCount": 43,
+    "totalGasUsed": "17112647",
+    "totalEthSpentWei": "3383647769779173",
+    "weightedAvgGasPriceWei": "197727900"
+  },
+  "commissionBps": 500,
+  "attributionMode": "proposals",
+  "outputMode": "safe",
+  "delegatorCount": 9,
+  "transfers": [
+    {
+      "delegator": "0x45AfC3330001D915736CCda5D8559C4A97512D5C",
+      "preRateShare": "350000000000000000000",
+      "amount": "332500000000000000000",
+      "weight": 1,
+      "attesters": 1
+    }
+  ],
+  "attributedCheckpoints": [
+    {
+      "checkpointNumber": "99301",
+      "txHash": "0x9c74e0149e1f74bf19eb4071b16a1de09b4dbd0632c551b8b1b9a2dfa366eeb9",
+      "blockNumber": "25426238",
+      "attester": "0xcFC5e2f293Bd846d11eB2BD1174385CB24d65681",
+      "delegator": "0x85fe829555b4855286823616980f61CB82A7A826",
+      "coinbase": "0x74c8654239c0EEa13d74E4Ea27498152f4C49b4d",
+      "counted": false
+    },
+    {
+      "checkpointNumber": "99308",
+      "txHash": "0xe08840dcdcd8535a163365a50f3760ae00c76ca605634b5cbb55fe89c417860d",
+      "blockNumber": "25426280",
+      "attester": "0xcFC5e2f293Bd846d11eB2BD1174385CB24d65681",
+      "delegator": "0x85fe829555b4855286823616980f61CB82A7A826",
+      "coinbase": "0x74c8654239c0EEa13d74E4Ea27498152f4C49b4d",
+      "counted": false
+    },
+    {
+      "checkpointNumber": "99486",
+      "txHash": "0x70b05d93a1ff75875cf33a735649303ce2ff020335c13c8f24dbd782fa4bd24f",
+      "blockNumber": "25427376",
+      "attester": "0xcFC5e2f293Bd846d11eB2BD1174385CB24d65681",
+      "delegator": "0x85fe829555b4855286823616980f61CB82A7A826",
+      "coinbase": "0x74c8654239c0EEa13d74E4Ea27498152f4C49b4d",
+      "counted": false
+    },
+    {
+      "checkpointNumber": "99493",
+      "txHash": "0x4a070840da47a32750d58dad2b4fdf1e27e3a77c5b29ad277d1970f4f6feaf01",
+      "blockNumber": "25427425",
+      "attester": "0xcFC5e2f293Bd846d11eB2BD1174385CB24d65681",
+      "delegator": "0x85fe829555b4855286823616980f61CB82A7A826",
+      "coinbase": "0x74c8654239c0EEa13d74E4Ea27498152f4C49b4d",
+      "counted": false
+    },
+    {
+      "checkpointNumber": "99696",
+      "txHash": "0x0d48fe6c8d2b0168909b3e2ff011424b6523eb614607f7ec58f83c39c6396005",
+      "blockNumber": "25428715",
+      "attester": "0xcFC5e2f293Bd846d11eB2BD1174385CB24d65681",
+      "delegator": "0x85fe829555b4855286823616980f61CB82A7A826",
+      "coinbase": "0x74c8654239c0EEa13d74E4Ea27498152f4C49b4d",
+      "counted": false
+    },
+    {
+      "checkpointNumber": "99711",
+      "txHash": "0x4d7204aeab9696aa51295e3d5f2b9e828a9ef03eb98c2572f6e5a304eedbd79a",
+      "blockNumber": "25428804",
+      "attester": "0xcFC5e2f293Bd846d11eB2BD1174385CB24d65681",
+      "delegator": "0x85fe829555b4855286823616980f61CB82A7A826",
+      "coinbase": "0x74c8654239c0EEa13d74E4Ea27498152f4C49b4d",
+      "counted": false
+    },
+    {
+      "checkpointNumber": "99714",
+      "txHash": "0xceb9dd0bdd34a5325e58e0f63c8a08d9ea56a60b7269e597a6382c82f0eb35a8",
+      "blockNumber": "25428840",
+      "attester": "0xcFC5e2f293Bd846d11eB2BD1174385CB24d65681",
+      "delegator": "0x85fe829555b4855286823616980f61CB82A7A826",
+      "coinbase": "0x74c8654239c0EEa13d74E4Ea27498152f4C49b4d",
+      "counted": false
+    },
+    {
+      "checkpointNumber": "100056",
+      "txHash": "0x9e5ab8b0b8e758514e55dd8b9bc0bbdd971881748a9ad52ab277253153f082c8",
+      "blockNumber": "25431041",
+      "attester": "0x00826603BD480f26619e39ec84E660979aaA4498",
+      "delegator": "0x45AfC3330001D915736CCda5D8559C4A97512D5C",
+      "coinbase": "0xb2f3aed8eF84ad40484fC71ebb1301B8c8B4785f",
+      "counted": true
+    },
+    {
+      "checkpointNumber": "100160",
+      "txHash": "0x855b2d02bfd7fbcdfa07300e4cf92da0a08f755b24d7d84c60719c310ecdb219",
+      "blockNumber": "25431699",
+      "attester": "0x057a7A135E74777C1Dba3311477A790a711eFA08",
+      "delegator": "0xe6b5A31d8bb53D2C769864aC137fe25F4989f1fd",
+      "coinbase": "0xc7d662edD82F6a9c593B7a78a65b025EEe0ED53a",
+      "counted": false
+    },
+    {
+      "checkpointNumber": "100166",
+      "txHash": "0x365d7e72a58d21714ce1c84ef9ceb50ede2b1c61268773e7e488932e0d93a158",
+      "blockNumber": "25431734",
+      "attester": "0x057a7A135E74777C1Dba3311477A790a711eFA08",
+      "delegator": "0xe6b5A31d8bb53D2C769864aC137fe25F4989f1fd",
+      "coinbase": "0xc7d662edD82F6a9c593B7a78a65b025EEe0ED53a",
+      "counted": false
+    },
+    {
+      "checkpointNumber": "100319",
+      "txHash": "0x4918668d7688eb764f311d9d2d71098e58f1f11c15a33ed7ae4d4387a92880ee",
+      "blockNumber": "25432709",
+      "attester": "0x057a7A135E74777C1Dba3311477A790a711eFA08",
+      "delegator": "0xe6b5A31d8bb53D2C769864aC137fe25F4989f1fd",
+      "coinbase": "0xc7d662edD82F6a9c593B7a78a65b025EEe0ED53a",
+      "counted": false
+    },
+    {
+      "checkpointNumber": "100578",
+      "txHash": "0x23009b0f3e75ff7fcb805e0233f3b58511cab2e545dffd65fcd3cf8372a2b4b9",
+      "blockNumber": "25434343",
+      "attester": "0x83339fFBDBD55a54D526043E33a90e2E9c9A02e1",
+      "delegator": "0x0dE0be315D816C1479229c81ccd2638378F99e3F",
+      "coinbase": "0x1Ce85c0989A4db2E5Ba81949e5B151cf6BB2D005",
+      "counted": false
+    },
+    {
+      "checkpointNumber": "100607",
+      "txHash": "0x366127cbd003c479258055261f3a9a475cfe67cfa60af5e3f4df050d8b874cc3",
+      "blockNumber": "25434517",
+      "attester": "0x95a4eAfbE6FfF10E3475B3D19571d1F9077d48F2",
+      "delegator": "0x85fe829555b4855286823616980f61CB82A7A826",
+      "coinbase": "0xdFe5eBA56A0D6e4a07d71b2e3D0d8F2B51C2C5Bc",
+      "counted": false
+    },
+    {
+      "checkpointNumber": "101411",
+      "txHash": "0x7bc19bf94f50feaadedf15012b3ab61d606d8a392f511cc16d1f5d650b445ce0",
+      "blockNumber": "25439610",
+      "attester": "0x057a7A135E74777C1Dba3311477A790a711eFA08",
+      "delegator": "0xe6b5A31d8bb53D2C769864aC137fe25F4989f1fd",
+      "coinbase": "0xc7d662edD82F6a9c593B7a78a65b025EEe0ED53a",
+      "counted": false
+    },
+    {
+      "checkpointNumber": "101482",
+      "txHash": "0x195ab5865272258ef8a3667d09fbde7532fe6ffae45914189b96e93d07754e1f",
+      "blockNumber": "25440052",
+      "attester": "0xcFC5e2f293Bd846d11eB2BD1174385CB24d65681",
+      "delegator": "0x85fe829555b4855286823616980f61CB82A7A826",
+      "coinbase": "0x74c8654239c0EEa13d74E4Ea27498152f4C49b4d",
+      "counted": false
+    },
+    {
+      "checkpointNumber": "101683",
+      "txHash": "0xb07c2b5d0b0c4c555b19c60ff5853a4f905fe117f70f950aa558d560ec994528",
+      "blockNumber": "25441331",
+      "attester": "0x9Bfb0b4DCE6D50F78Cc655Ba9D0862Fdd766a1d1",
+      "delegator": "0x0dE0be315D816C1479229c81ccd2638378F99e3F",
+      "coinbase": "0x090ec676A5c9D51c5F047068De7904FfF1fB8419",
+      "counted": false
+    },
+    {
+      "checkpointNumber": "101718",
+      "txHash": "0xfb7f276345c7f47249dcef13502184f4cc39a9796007fd2dcc1c46d7bc111d51",
+      "blockNumber": "25441545",
+      "attester": "0x211E2413AaD01ea39094975cc9f74DA970D71198",
+      "delegator": "0x98540d8695A2294C03F129DBCB85940f5aa73e1A",
+      "coinbase": "0x8a6c904d345C94AAbc895Ea2B0b13b7A98521956",
+      "counted": false
+    },
+    {
+      "checkpointNumber": "101735",
+      "txHash": "0x73251bf725838b187f0cbae565ca239a7a42adf3a609886957faa629d5378cfb",
+      "blockNumber": "25441647",
+      "attester": "0x211E2413AaD01ea39094975cc9f74DA970D71198",
+      "delegator": "0x98540d8695A2294C03F129DBCB85940f5aa73e1A",
+      "coinbase": "0x8a6c904d345C94AAbc895Ea2B0b13b7A98521956",
+      "counted": false
+    },
+    {
+      "checkpointNumber": "101791",
+      "txHash": "0xbba08e42774c0cd1f0e7fb8e93a4bf49dd5d9964e46a5c55abd7dc66a889276e",
+      "blockNumber": "25442012",
+      "attester": "0x639Ed41A74351C68E8A3304C1FDE7fFC4d7AF469",
+      "delegator": "0xE84Dcc9febd47c41583A7274EBbC06f2f0B12bb6",
+      "coinbase": "0xCf7CB7e54eb06B8A17Aa62FCebA53585769773d5",
+      "counted": false
+    },
+    {
+      "checkpointNumber": "101793",
+      "txHash": "0x1d680191f4f9cbad50949b3147d529e0e8252a11f1a69fa763a1ecf74b7a08a4",
+      "blockNumber": "25442023",
+      "attester": "0x470b0a68CD5fba42999677135C2aF7268B76d277",
+      "delegator": "0x13f073Bb6338036649E16E256F31784666a8FbbB",
+      "coinbase": "0x703D9ac04E872a980A4ebc0EB25c1C72C69296A3",
+      "counted": false
+    },
+    {
+      "checkpointNumber": "101936",
+      "txHash": "0xc945592878464b7d324a08f9c633b94b5d087c83beee48ef3a7b064f2b8438e5",
+      "blockNumber": "25442915",
+      "attester": "0x057a7A135E74777C1Dba3311477A790a711eFA08",
+      "delegator": "0xe6b5A31d8bb53D2C769864aC137fe25F4989f1fd",
+      "coinbase": "0xc7d662edD82F6a9c593B7a78a65b025EEe0ED53a",
+      "counted": false
+    },
+    {
+      "checkpointNumber": "101939",
+      "txHash": "0xbc858775f99eefbed3969d13d636a64ea535bed968faa3262e7914ab0ec368e9",
+      "blockNumber": "25442939",
+      "attester": "0x057a7A135E74777C1Dba3311477A790a711eFA08",
+      "delegator": "0xe6b5A31d8bb53D2C769864aC137fe25F4989f1fd",
+      "coinbase": "0xc7d662edD82F6a9c593B7a78a65b025EEe0ED53a",
+      "counted": false
+    },
+    {
+      "checkpointNumber": "101947",
+      "txHash": "0xa4a70c9221acee4e41be10bf614641448c742001b6b6be57863096979ad912d9",
+      "blockNumber": "25442993",
+      "attester": "0x057a7A135E74777C1Dba3311477A790a711eFA08",
+      "delegator": "0xe6b5A31d8bb53D2C769864aC137fe25F4989f1fd",
+      "coinbase": "0xc7d662edD82F6a9c593B7a78a65b025EEe0ED53a",
+      "counted": false
+    },
+    {
+      "checkpointNumber": "102044",
+      "txHash": "0x6eb1d12b9ecdd39f82099109969a63c84015811493c355e80a0c7b6d05fd4370",
+      "blockNumber": "25443602",
+      "attester": "0x4e7Ac4d7aE866EeFA824380D5ADC399eC27Cf04B",
+      "delegator": "0xe6b5A31d8bb53D2C769864aC137fe25F4989f1fd",
+      "coinbase": "0xe2e6Faa46bdDA70CcF635b2e51B24B1DB2d202c0",
+      "counted": false
+    },
+    {
+      "checkpointNumber": "102148",
+      "txHash": "0xd564d96fc725a41f481a649d5486dc3953aebd5cfd5c7a2613a8f2fa4b680da9",
+      "blockNumber": "25444257",
+      "attester": "0x4e7Ac4d7aE866EeFA824380D5ADC399eC27Cf04B",
+      "delegator": "0xe6b5A31d8bb53D2C769864aC137fe25F4989f1fd",
+      "coinbase": "0xe2e6Faa46bdDA70CcF635b2e51B24B1DB2d202c0",
+      "counted": false
+    },
+    {
+      "checkpointNumber": "102537",
+      "txHash": "0xee35b4f2eca4a5e1f129640806e9f441a136d36736ad5dc014b0dd54330d380f",
+      "blockNumber": "25446632",
+      "attester": "0xDC1A034C6380b85a5279dB7E6f7844351E00Ff9D",
+      "delegator": "0x13f073Bb6338036649E16E256F31784666a8FbbB",
+      "coinbase": "0x0f236c90cB0861CCC0A5182E36B2D2dd0A5CFeFB",
+      "counted": false
+    },
+    {
+      "checkpointNumber": "102598",
+      "txHash": "0xfdcb466550fbd5fc1dd4a0fada1289c4bf0905fbaeedc82b453b494da6c78682",
+      "blockNumber": "25447003",
+      "attester": "0x9Bfb0b4DCE6D50F78Cc655Ba9D0862Fdd766a1d1",
+      "delegator": "0x0dE0be315D816C1479229c81ccd2638378F99e3F",
+      "coinbase": "0x090ec676A5c9D51c5F047068De7904FfF1fB8419",
+      "counted": false
+    },
+    {
+      "checkpointNumber": "102957",
+      "txHash": "0xbb7c9d3d100d5e4df2f8ec0109b707f81e1bd87627ef8cb7f9572f6ae374ae07",
+      "blockNumber": "25449158",
+      "attester": "0x9Bfb0b4DCE6D50F78Cc655Ba9D0862Fdd766a1d1",
+      "delegator": "0x0dE0be315D816C1479229c81ccd2638378F99e3F",
+      "coinbase": "0x090ec676A5c9D51c5F047068De7904FfF1fB8419",
+      "counted": false
+    },
+    {
+      "checkpointNumber": "103002",
+      "txHash": "0xb7d6cbe98f4f578a21cc78eced19ba71674715a4e0150abacc944647c0a41ec6",
+      "blockNumber": "25449425",
+      "attester": "0x83339fFBDBD55a54D526043E33a90e2E9c9A02e1",
+      "delegator": "0x0dE0be315D816C1479229c81ccd2638378F99e3F",
+      "coinbase": "0x1Ce85c0989A4db2E5Ba81949e5B151cf6BB2D005",
+      "counted": false
+    },
+    {
+      "checkpointNumber": "103003",
+      "txHash": "0x410e3c88f2e5d48da9c4938a0cd9015a26efcc3432bd06483ba5131188b01be4",
+      "blockNumber": "25449431",
+      "attester": "0x83339fFBDBD55a54D526043E33a90e2E9c9A02e1",
+      "delegator": "0x0dE0be315D816C1479229c81ccd2638378F99e3F",
+      "coinbase": "0x1Ce85c0989A4db2E5Ba81949e5B151cf6BB2D005",
+      "counted": false
+    },
+    {
+      "checkpointNumber": "103151",
+      "txHash": "0x48c29d2e46e89742bb0e72356e5623a900c17c7fea858fb8a3e66db58aeff1fc",
+      "blockNumber": "25450321",
+      "attester": "0x8332d0B0f7dd4ad30CF95d65d66a8bdfb50848b2",
+      "delegator": "0xAc3E2B760232A413171D539C78008Cdb7C18ab52",
+      "coinbase": "0x9E4Cc7d938DCAc5fa1200BA38D1cdc6Ede2568DF",
+      "counted": false
+    },
+    {
+      "checkpointNumber": "103177",
+      "txHash": "0x53ba343e9e1de54de1d053c20140a8b0e8b226b64595baeecc2bec7d58d85a23",
+      "blockNumber": "25450483",
+      "attester": "0x8332d0B0f7dd4ad30CF95d65d66a8bdfb50848b2",
+      "delegator": "0xAc3E2B760232A413171D539C78008Cdb7C18ab52",
+      "coinbase": "0x9E4Cc7d938DCAc5fa1200BA38D1cdc6Ede2568DF",
+      "counted": false
+    },
+    {
+      "checkpointNumber": "103547",
+      "txHash": "0x1b468a4a4c9e508fc792d13194517a9d91d1983ce21812f6a91212f29adffbd9",
+      "blockNumber": "25452736",
+      "attester": "0x07Cd29E50445a720a33E760F54679c7F2E605436",
+      "delegator": "0x0dE0be315D816C1479229c81ccd2638378F99e3F",
+      "coinbase": "0xe83b93829fBe1f64F01389D08E13d56F31680EAD",
+      "counted": false
+    },
+    {
+      "checkpointNumber": "103609",
+      "txHash": "0x8796eaaaec7a0e68877b255b7cb2a793c53e8cdb1192e9433d6a25cebd42593c",
+      "blockNumber": "25453107",
+      "attester": "0x470b0a68CD5fba42999677135C2aF7268B76d277",
+      "delegator": "0x13f073Bb6338036649E16E256F31784666a8FbbB",
+      "coinbase": "0x703D9ac04E872a980A4ebc0EB25c1C72C69296A3",
+      "counted": false
+    },
+    {
+      "checkpointNumber": "103780",
+      "txHash": "0x22b146146ecc0d8ed6505205ff0a33f9d3670749ac687952306332d353f1930c",
+      "blockNumber": "25454134",
+      "attester": "0xA383F140B734667Cf6Ec4e193CF076719ff0181b",
+      "delegator": "0xe6b5A31d8bb53D2C769864aC137fe25F4989f1fd",
+      "coinbase": "0x5baEdd54864E1Ce3411d6531115BB09680e3a1a7",
+      "counted": false
+    },
+    {
+      "checkpointNumber": "103803",
+      "txHash": "0xf11c21d3e1f9643375dd2145475efb8efdf7bc9204ea91ed7d130fa4517a04fe",
+      "blockNumber": "25454273",
+      "attester": "0xA383F140B734667Cf6Ec4e193CF076719ff0181b",
+      "delegator": "0xe6b5A31d8bb53D2C769864aC137fe25F4989f1fd",
+      "coinbase": "0x5baEdd54864E1Ce3411d6531115BB09680e3a1a7",
+      "counted": false
+    },
+    {
+      "checkpointNumber": "104493",
+      "txHash": "0x78aa3c7173c07bea9191928ae8ce5e4cb454e30dc486ab1e39f619e2b55fe68b",
+      "blockNumber": "25458441",
+      "attester": "0xA383F140B734667Cf6Ec4e193CF076719ff0181b",
+      "delegator": "0xe6b5A31d8bb53D2C769864aC137fe25F4989f1fd",
+      "coinbase": "0x5baEdd54864E1Ce3411d6531115BB09680e3a1a7",
+      "counted": false
+    },
+    {
+      "checkpointNumber": "105081",
+      "txHash": "0x544216ea4ebcb8d9229abcbe96bfbaf4466968310e4f4f9a8a6cae16052b8f23",
+      "blockNumber": "25462011",
+      "attester": "0x95a4eAfbE6FfF10E3475B3D19571d1F9077d48F2",
+      "delegator": "0x85fe829555b4855286823616980f61CB82A7A826",
+      "coinbase": "0xdFe5eBA56A0D6e4a07d71b2e3D0d8F2B51C2C5Bc",
+      "counted": false
+    },
+    {
+      "checkpointNumber": "105185",
+      "txHash": "0x44af189bec7ab0163cf59a2585cdac517e7c17205a84a2f83f01ac5229716ede",
+      "blockNumber": "25462649",
+      "attester": "0xE437e64752EAa73820ADb61afd2D856372818581",
+      "delegator": "0xe6b5A31d8bb53D2C769864aC137fe25F4989f1fd",
+      "coinbase": "0xf0Cc250F34463b8CBB1Ec6796EC993485Bf5c9Bb",
+      "counted": false
+    },
+    {
+      "checkpointNumber": "105722",
+      "txHash": "0xd26c65bd21d3184a3a69c3ebd5c4471140a52fc9d218ebbe6131073c7dcd029e",
+      "blockNumber": "25465934",
+      "attester": "0xcFC5e2f293Bd846d11eB2BD1174385CB24d65681",
+      "delegator": "0x85fe829555b4855286823616980f61CB82A7A826",
+      "coinbase": "0x74c8654239c0EEa13d74E4Ea27498152f4C49b4d",
+      "counted": false
+    },
+    {
+      "checkpointNumber": "105953",
+      "txHash": "0xd0de212d4d9eb50450de64a306fffb034942aeb5a12a1a0f0187ff6c53bc1944",
+      "blockNumber": "25467328",
+      "attester": "0xE437e64752EAa73820ADb61afd2D856372818581",
+      "delegator": "0xe6b5A31d8bb53D2C769864aC137fe25F4989f1fd",
+      "coinbase": "0xf0Cc250F34463b8CBB1Ec6796EC993485Bf5c9Bb",
+      "counted": false
+    },
+    {
+      "checkpointNumber": "106287",
+      "txHash": "0x14616d8dfd1b4d43eee61898551b5bedc085bec5570fcc9a5279a028449ad5b7",
+      "blockNumber": "25469344",
+      "attester": "0x639Ed41A74351C68E8A3304C1FDE7fFC4d7AF469",
+      "delegator": "0xE84Dcc9febd47c41583A7274EBbC06f2f0B12bb6",
+      "coinbase": "0xCf7CB7e54eb06B8A17Aa62FCebA53585769773d5",
+      "counted": false
+    },
+    {
+      "checkpointNumber": "106368",
+      "txHash": "0x54857e725198a188bba726542474585be77bdb4fa45d7ba71d218dc18ae478f1",
+      "blockNumber": "25469833",
+      "attester": "0xe002A91ef4Bd36B01fD68Cd3f88752A5c5ab8957",
+      "delegator": "0x13f073Bb6338036649E16E256F31784666a8FbbB",
+      "coinbase": "0xB5bA689B6FF8aF7aBd5bf1A5e690f18bfA59C7c8",
+      "counted": false
+    }
+  ],
+  "coinbaseFilter": {
+    "mode": "match-distribution-wallet",
+    "expectedCoinbase": "0xb2f3aed8eF84ad40484fC71ebb1301B8c8B4785f",
+    "operatorTotal": 43,
+    "counted": 1,
+    "droppedDueToCoinbaseMismatch": 42
+  },
+  "txHashes": []
+}
